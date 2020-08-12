@@ -1,22 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        
-        <!-- Set the character set, so that browser knows which character is missing-->
-        <meta charset="UTF-8">
-        <!-- For modern responsive web development:-->
-        <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
-        <!-- Meta Data -->
-              <meta name = "description" content =">PHP Introduction">
-        <meta name = "author", content="Shailza Sharma">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    <?php echo $GLOBALS['title']; ?>
+    | TECHCareers
+  </title>
 
-        <!-- Style(s)-->
-        <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Style(s) -->
+  <link rel="stylesheet" href="css/main.css">
 
-        <!-- Script(s)-->
-        <!-- defer attribute will cause scripts to wait untill the body is loaded before executing(important for DOM/element manipulation by scripts) -->
-        <script src="js/scripts.js" type="text/javascript" defer></script>
-        
-        <title><?php echo $pageTitle; ?></title>
-    </head>
-    <body>
+  <!-- Script(s) -->
+  <script type="text/JavaScript" src="js/scripts.js" defer></script>
+</head>
+<body>
