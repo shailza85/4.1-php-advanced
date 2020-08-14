@@ -16,5 +16,20 @@
         Pokemon (Classes)
       </a>
     </li>
+    <li>
+      <a href="php-api.php">
+        PHP API Example
+      </a>
+    </li>
+    <li>
+      <a href="php-ajax.php">
+        PHP (Our Own!) API/AJAX Example
+      </a>
+    </li>
+    <li>
+      <a href="react-example.php">
+        React Example
+      </a>
+    </li>
   </ul>
 </nav>
